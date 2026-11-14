@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chimaroke | Backend Developer</title>
+  <meta name="description" content="Backend developer building fintech and automation systems.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232F7F79'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' text-anchor='middle' fill='%23FBF9F5'%3EM%3C/text%3E%3C/svg%3E">
+    <meta name="theme-color" content="#F4F1EA">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chimaroke | Backend Developer">
+    <meta property="og:description" content="Backend developer building fintech and automation systems with Python, Node.js and C#/.NET.">
+    <meta property="og:image" content="og.png">
+    <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fraunces:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <a href="#about" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <a href="#hero" class="logo">Maro</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+    <p class="eyebrow reveal">Backend Developer · Lagos, Nigeria</p>
+    <h1 class="reveal">I build calm, reliable systems for money and workflows.</h1>
+    <p class="lead reveal">
+        I design and build fintech platforms and automation tools with Python,
+        Node.js and C#/.NET, from the database to the deployed app.
+    </p>
+    <div class="actions reveal">
+        <a href="#projects" class="btn">See my work</a>
+        <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+    </section>
+
+    <section id="about" class="section">
+    <h2 class="reveal">About</h2>
+    <div class="about-grid">
+        <div class="portrait reveal" aria-label="Photo of Chimaroke">
+        <span>M</span>
+        </div>
+        <div class="about-text">
+        <p class="reveal">
+            I'm Chimaroke, but most people call me Maro. I'm a backend developer
+            in Lagos, and I'm drawn to the parts of software where correctness
+            matters: payments, accounts, approvals and audit trails.
+        </p>
+        <p class="reveal">
+            My strongest work has come from building alongside the people who use
+            it. I built a digital account-opening system for banks with input from
+            real bank staff, so the workflows follow how branches actually operate.
+        </p>
+        <p class="reveal">
+            I also build automation tools for clients, from data scrapers to
+            pipelines that take over repetitive tasks, and I'm currently deepening
+            my C#/.NET skills with larger architecture projects.
+        </p>
+        </div>
+    </div>
+    </section>
+
+    <section id="projects" class="section">
+  <h2 class="reveal">Projects</h2>
+  <p class="section-intro reveal">
+    A mix of live products, private case studies and work in progress.
+  </p>
+
+  <div class="project-list">
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>FlowDesk &amp; VaultGate</h3>
+        <span class="tag tag-private">Private case study</span>
+      </div>
+      <p>
+        A two-app digital banking system built with input from real bank staff.
+        FlowDesk handles account opening with a full approval lifecycle, role-based
+        staff workflows and real-time notifications. VaultGate sits in front of it
+        as a controlled, audited gateway to customer KYC data, with multi-admin
+        approval. Both reached the finalist stage of a competition.
+      </p>
+      <p class="stack">Python · FastAPI · PostgreSQL · Redis · WebSockets · C#/.NET rewrite done</p>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>FlowLedger</h3>
+        <span class="tag tag-live">Live</span>
+      </div>
+      <p>
+        A personal finance and investment app across web and mobile. It tracks
+        portfolios with live international stock data, plus a custom scraper that
+        caches Nigerian Exchange prices on a schedule, and sends push notifications.
+      </p>
+      <p class="stack">NestJS · Prisma · PostgreSQL · React · React Native · Expo</p>
+      <div class="links">
+        <a href="https://flow-ledger-frontend-1th9.vercel.app/" target="_blank" rel="noopener">Live site</a>
+        <a href="https://github.com/Maron09/FlowLedger-Frontend" target="_blank" rel="noopener">Web</a>
+        <a href="https://github.com/Maron09/FlowLedger--backend" target="_blank" rel="noopener">API</a>
+        <a href="https://github.com/Maron09/FlowLedger-Mobile" target="_blank" rel="noopener">Mobile</a>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>ContentAgg</h3>
+        <span class="tag">Built</span>
+      </div>
+      <p>
+        A content aggregation tool for video editors that gathers and downloads
+        source material in one place, so they spend less time hunting for clips.
+      </p>
+      <p class="stack">FastAPI · Playwright · yt-dlp · React</p>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>Marketplace API</h3>
+        <span class="tag tag-progress">In progress</span>
+      </div>
+      <p>
+        A multi-vendor marketplace backend built as a modular monolith, with
+        separate modules for catalog, inventory, orders, payments and wallets.
+        Backend only for now.
+      </p>
+      <p class="stack">C# · ASP.NET Core · PostgreSQL</p>
+      <div class="links">
+        <a href="https://github.com/Maron09/MarketPlace.Api" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>TrustPay</h3>
+        <span class="tag tag-progress">In progress</span>
+      </div>
+      <p>
+        A transaction protection platform for social commerce in Nigeria. A buyer
+        pays, a courier delivers, and funds are released to the seller or refunded.
+      </p>
+      <p class="stack">C# · ASP.NET Core · PostgreSQL</p>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-head">
+        <h3>mov-cli</h3>
+        <span class="tag">Built</span>
+      </div>
+      <p>
+        A terminal movie streaming tool that searches TMDB and plays through mpv,
+        with a clean terminal interface.
+      </p>
+      <p class="stack">Python · Rich · TMDB · mpv</p>
+      <div class="links">
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="freelance reveal">
+  <h3>Freelance</h3>
+  <p>
+    I build backend systems and automation tools for clients, from APIs
+    to scrapers and workflow automation.
+  </p>
+  <div class="links">
+    <a href="https://www.fiverr.com/s/mmY04zP" target="_blank" rel="noopener">Fiverr profile</a>
+    <a href="https://www.fiverr.com/s/jye4N2V" target="_blank" rel="noopener">Backend development gig</a>
+    <a href="https://www.fiverr.com/s/kX8RQAy" target="_blank" rel="noopener">Automation gig</a>
+  </div>
+</div>
+</section>
+
+    <section id="skills" class="section">
+  <h2 class="reveal">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-group reveal">
+      <h3>Languages &amp; frameworks</h3>
+      <p>Python (FastAPI, Django) · Node.js (NestJS) · C# (ASP.NET Core)</p>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Data &amp; infrastructure</h3>
+      <p>PostgreSQL · Prisma · EF Core · Redis · Docker · Render · Vercel</p>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Frontend &amp; mobile</h3>
+      <p>React · Vite · React Native · Expo</p>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Automation &amp; integrations</h3>
+      <p>Playwright · web scraping · REST APIs · Google APIs · payment flows</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2 class="reveal">Let's talk</h2>
+  <p class="reveal">
+    Open to backend roles and freelance projects. The best way to reach me
+    is by email.
+  </p>
+  <div class="actions reveal">
+    <a href="mailto:ezrapeter.on@gmail.com" class="btn">Send an email</a>
+  </div>
+  <div class="links reveal">
+    <a href="https://github.com/Maron09" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/chimaroke-onyebi/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL0uOF%2FGGTmqotpXeGtFH%2Fw%3D%3D" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.fiverr.com/s/mmY04zP" target="_blank" rel="noopener">Fiverr</a>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Chimaroke</p>
+  </footer>
+</body>
+</html>
